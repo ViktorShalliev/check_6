@@ -13,25 +13,13 @@ font-size: 18px;
 background: #C24648;  
 }
 .maincontainer {
-width: 600px;
-height: 600px;
-background: white;
+width: 1500px;
+height: 850px;
+background:#FFFFFF;
 }
-.box {
-width: 600px;
-height: 100px;
-background: white;
-}
-.second {
-width: 600px;
-height: 400px;
-background: green;
-}
-.third {
-width: 600px;
-height: 100px;
-background: red;
-}
-.font{
-font-family: 'Dongle', sans-serif;
+.imagetext {
+float: left; 
+margin-left: 10px;
+margin-right: 20px;
+margin-top: 15px; 
 }
