@@ -1,0 +1,37 @@
+@charset "UTF-8";
+head {
+	font-family: "Dongle", sans-serif; 
+}
+body {
+background: gray;
+}
+h1 {
+color:pink;
+}
+.paragraph {
+font-size: 18px;
+background: #C24648;  
+}
+.maincontainer {
+width: 600px;
+height: 600px;
+background: white;
+}
+.box {
+width: 600px;
+height: 100px;
+background: white;
+}
+.second {
+width: 600px;
+height: 400px;
+background: green;
+}
+.third {
+width: 600px;
+height: 100px;
+background: red;
+}
+.font{
+font-family: 'Dongle', sans-serif;
+}
