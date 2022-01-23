@@ -5,6 +5,13 @@ head {
 body {
 background: gray;
 }
+
+.body, html {
+padding: 0;
+margin: 0;
+height: 100%;
+vertical-align: center;
+}
 h1 {
 color:white;
 	font-size: 45px;
