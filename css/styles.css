@@ -6,20 +6,26 @@ body {
 background: gray;
 }
 h1 {
-color:pink;
+color:white;
+	font-size: 45px;
 }
 .paragraph {
 font-size: 18px;
-background: #C24648;  
+background: #F59425;  
+	
 }
-.maincontainer {
-width: 1500px;
-height: 850px;
-background:#FFFFFF;
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
 }
-.imagetext {
-float: left; 
-margin-left: 10px;
-margin-right: 20px;
-margin-top: 15px; 
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 95%; /* Full width */
+  padding: 20px; /* Some padding */
 }
