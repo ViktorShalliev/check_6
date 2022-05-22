@@ -1,40 +1,50 @@
 @charset "UTF-8";
-head {
-	font-family: "Dongle", sans-serif; 
-}
-body {
-background: gray;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.body, html {
-padding: 0;
-margin: 0;
-height: 100%;
-vertical-align: center;
-}
-h1 {
-color:white;
-	font-size: 45px;
-	text-align: center;
-}
-.paragraph {
-font-size: 18px;
-background: #F59425;  
-	text-align: center;
-	
-}
-.container {
-  position: relative;
-  max-width: 800px; /* Maximum width */
-  margin: 0 auto; /* Center it */
+body{
+  background: #fc6b04;
+ font-family: 'Roboto Flex', sans-serif;
 }
 
-.container .content {
-  position: absolute; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  width: 95%; /* Full width */
-  padding: 20px; /* Some padding */
+h1{
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+h2{
+  font-size: 30px;
+}
+
+p{
+  margin: 5px;
+}
+.header{
+  text-align: center;
+  color: whitesmoke;
+}
+
+.container-1{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.bg-image{
+  margin: 50px;
+  padding: 300px;
+  background-image: url(../images/buas-canteen.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 25px;
+  color: black;
+}
+
+.bg-image-p{
+  background-color: whitesmoke;
+}
+
+.container-2{
+  align-content: center;
 }
